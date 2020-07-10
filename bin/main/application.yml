@@ -1,0 +1,53 @@
+server:
+  port: 9090
+
+spring:
+  devtools: 
+    livereload: 
+      enabled: true
+  application:
+    name: pupil
+#   cloud:
+#     consul:
+#       discovery:
+#         instance-id: ${spring.application.name}:${server.port}
+#         prefer-ip-address: true
+#         health-check-interval: 10s
+#         hostname: ${spring.application.name}
+#         service-name: ${spring.application.name}
+#         enabled: true
+#       host: localhost
+#       port: 8500
+
+  datasource:
+    url: jdbc:mysql://rdsjirajfyyrfeu.mysql.rds.aliyuncs.com/devdb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Hongkong
+    username: football
+    password: tbweb0121
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+       connectionInitSqls: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+    driverClassName: com.mysql.cj.jdbc.Driver
+    initialSize: 50
+    minIdle: 20
+    maxActive: 200
+    maxWait: 15000
+    timeBetweenEvictionRunsMillis: 30000
+    minEvictableIdleTimeMillis: 10000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: false
+    maxPoolPreparedStatementPerConnectionSize: 2000
+    filters: stat,wall,log4j,config
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  thymeleaf:
+    cache: false                  # 是否开启模板缓存，默认为：true，开发时关闭缓存，不然没法看到实时页面！
+    mode: HTML                    # 指定模板的模式，默认为：HTML
+    encoding: UTF-8               # 指定模板的编码，默认为：UTF-8
+    prefix: classpath:/templates/ # 指定模板的前缀，默认为：classpath:/templates/
+    suffix: .html                 # 指定模板的后缀，默认为：.html
+    servlet:
+      content-type: text/html 

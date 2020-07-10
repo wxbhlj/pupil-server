@@ -1,0 +1,1 @@
+2020-03-01 21:28:26 [http-nio-9090-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '13801983079' for key 'UK_USER' of table 'devdb.ums_user'

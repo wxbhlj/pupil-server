@@ -1,0 +1,191 @@
+2020-07-08 15:27:08 [Thread-215] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:27:08 [Thread-215] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 15:27:08 [Thread-215] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-44} closing ...
+2020-07-08 15:27:08 [Thread-215] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-44} closed
+2020-07-08 15:27:09 [restartedMain] INFO  com.vivid.PupilApplication - Starting PupilApplication on MB-xbwang2.local with PID 74326 (/Users/xbwang2/workspace/pupil/bin/main started by xbwang2 in /Users/xbwang2/workspace/pupil)
+2020-07-08 15:27:09 [restartedMain] INFO  com.vivid.PupilApplication - No active profile set, falling back to default profiles: default
+2020-07-08 15:27:09 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-08 15:27:09 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 7 repository interfaces.
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2020-07-08 15:27:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2020-07-08 15:27:10 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-08 15:27:10 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-07-08 15:27:10 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 368 ms
+2020-07-08 15:27:10 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-07-08 15:27:10 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-45} inited
+2020-07-08 15:27:10 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-08 15:27:10 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-08 15:27:10 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.boot.web.servlet.RegistrationBean - Filter authFilter was not registered (possibly already registered?)
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:27:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_1
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: indexPageUsingGET_1
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_2
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: checkedUsingPUT_1
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_3
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: lineChartUsingGET_1
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2020-07-08 15:27:10 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_4
+2020-07-08 15:27:11 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2020-07-08 15:27:11 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+2020-07-08 15:27:11 [restartedMain] INFO  com.vivid.PupilApplication - Started PupilApplication in 1.462 seconds (JVM running for 277475.844)
+2020-07-08 15:27:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-07-08 15:46:29 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:46:29 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 15:46:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-45} closing ...
+2020-07-08 15:46:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-45} closed
+2020-07-08 18:06:16 [restartedMain] INFO  com.vivid.PupilApplication - Starting PupilApplication on MB-xbwang2.local with PID 59606 (/Users/xbwang2/workspace/pupil/bin/main started by xbwang2 in /Users/xbwang2/workspace/pupil)
+2020-07-08 18:06:16 [restartedMain] INFO  com.vivid.PupilApplication - No active profile set, falling back to default profiles: default
+2020-07-08 18:06:16 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/jakarta.xml.bind-api-2.3.2.jar,file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/txw2-2.3.2.jar,file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/istack-commons-runtime-3.0.8.jar,file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/stax-ex-1.8.1.jar,file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/FastInfoset-1.2.16.jar,file:/Users/xbwang2/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/5528bc882ea499a09d720b42af11785c4fc6be2a/jakarta.activation-api-1.2.1.jar
+2020-07-08 18:06:16 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-08 18:06:16 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-08 18:06:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-08 18:06:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84ms. Found 7 repository interfaces.
+2020-07-08 18:06:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-08 18:06:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2020-07-08 18:06:18 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2020-07-08 18:06:18 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-08 18:06:18 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-07-08 18:06:18 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-08 18:06:18 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1924 ms
+2020-07-08 18:06:19 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-07-08 18:06:19 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-08 18:06:19 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-08 18:06:19 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+2020-07-08 18:06:20 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-08 18:06:20 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-08 18:06:21 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-08 18:06:21 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:06:21 [restartedMain] INFO  org.springframework.boot.web.servlet.RegistrationBean - Filter authFilter was not registered (possibly already registered?)
+2020-07-08 18:06:21 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-08 18:06:22 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_1
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: indexPageUsingGET_1
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_2
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: checkedUsingPUT_1
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_3
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: lineChartUsingGET_1
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2020-07-08 18:06:22 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_4
+2020-07-08 18:06:22 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2020-07-08 18:06:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+2020-07-08 18:06:22 [restartedMain] INFO  com.vivid.PupilApplication - Started PupilApplication in 6.268 seconds (JVM running for 6.84)
+2020-07-08 18:07:13 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-08 18:07:13 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-08 18:07:13 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-07-08 18:17:07 [Thread-1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:17:07 [Thread-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:17:07 [Thread-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-08 18:17:07 [Thread-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-07-08 18:17:07 [restartedMain] INFO  com.vivid.PupilApplication - Starting PupilApplication on MB-xbwang2.local with PID 59606 (/Users/xbwang2/workspace/pupil/bin/main started by xbwang2 in /Users/xbwang2/workspace/pupil)
+2020-07-08 18:17:07 [restartedMain] INFO  com.vivid.PupilApplication - No active profile set, falling back to default profiles: default
+2020-07-08 18:17:07 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-08 18:17:07 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 7 repository interfaces.
+2020-07-08 18:17:07 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-08 18:17:07 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2020-07-08 18:17:07 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2020-07-08 18:17:07 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-08 18:17:07 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-07-08 18:17:07 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-08 18:17:07 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 485 ms
+2020-07-08 18:17:07 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-07-08 18:17:07 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-07-08 18:17:08 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-08 18:17:08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-08 18:17:08 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-08 18:17:08 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:17:08 [restartedMain] INFO  org.springframework.boot.web.servlet.RegistrationBean - Filter authFilter was not registered (possibly already registered?)
+2020-07-08 18:17:08 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-08 18:17:08 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_1
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: indexPageUsingGET_1
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2020-07-08 18:17:08 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_2
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: checkedUsingPUT_1
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_3
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: lineChartUsingGET_1
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2020-07-08 18:17:09 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_4
+2020-07-08 18:17:09 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2020-07-08 18:17:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+2020-07-08 18:17:09 [restartedMain] INFO  com.vivid.PupilApplication - Started PupilApplication in 1.731 seconds (JVM running for 653.025)
+2020-07-08 18:17:09 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.ehcache.core.EhcacheManager - Cache 'cache' created in EhcacheManager.
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.dozer.config.GlobalSettings - Trying to find Dozer configuration file: dozer.properties
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.dozer.DozerInitializer - Initializing Dozer. Version: 5.5.0, Thread Name: http-nio-9090-exec-1
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.dozer.jmx.JMXPlatformImpl - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.dozer.jmx.JMXPlatformImpl - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-07-08 18:18:05 [http-nio-9090-exec-1] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vivid.VividSearchApplicationTests], using SpringBootContextLoader
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.vivid.VividSearchApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.vivid.VividSearchApplicationTests]: VividSearchApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.vivid.PupilApplication for test class com.vivid.VividSearchApplicationTests
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-07-08 18:47:13 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@798b1796, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3565bd18, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40c12d5b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75120bff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5484956c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c117f99, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57338b5, org.springframework.test.context.event.EventPublishingTestExecutionListener@60db8617, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@10044095, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ae18bb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b84346b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7753f832, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45610ea5]
+2020-07-08 18:47:13 [Test worker] INFO  com.vivid.VividSearchApplicationTests - Starting VividSearchApplicationTests on MB-xbwang2.local with PID 64558 (started by xbwang2 in /Users/xbwang2/workspace/pupil)
+2020-07-08 18:47:13 [Test worker] INFO  com.vivid.VividSearchApplicationTests - No active profile set, falling back to default profiles: default
+2020-07-08 18:47:14 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-08 18:47:14 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64ms. Found 7 repository interfaces.
+2020-07-08 18:47:14 [Test worker] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-08 18:47:15 [Test worker] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-07-08 18:47:15 [Test worker] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-08 18:47:15 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-08 18:47:15 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+2020-07-08 18:47:15 [Test worker] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-08 18:47:15 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-08 18:47:16 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-08 18:47:16 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:47:17 [Test worker] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-08 18:47:17 [Test worker] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-08 18:47:18 [Test worker] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_1
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: indexPageUsingGET_1
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_2
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: checkedUsingPUT_1
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_3
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: lineChartUsingGET_1
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2020-07-08 18:47:18 [Test worker] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findOneUsingGET_4
+2020-07-08 18:47:18 [Test worker] INFO  com.vivid.VividSearchApplicationTests - Started VividSearchApplicationTests in 5.374 seconds (JVM running for 6.373)
+2020-07-08 18:47:18 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:47:18 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:47:18 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-08 18:47:18 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
