@@ -207,18 +207,19 @@ public class TaskServiceImpl implements TaskService {
 
 				Calendar c1 = Calendar.getInstance();
 				Calendar c2 = Calendar.getInstance();
-			
+
 				c1.add(Calendar.HOUR, -12);
 				c2.add(Calendar.HOUR, -24 * 6);
-				
-				
-				Predicate p1 = cb.equal(root.get("userId"), userId);
-				
-		
-				Predicate p2 = cb.and(cb.equal(root.get("status"), "CHECKED"), cb.lessThan(root.get("updated"), c1.getTime()));
-				Predicate p3 = cb.and(cb.equal(root.get("status"), "REVIEWED"), cb.lessThan(root.get("updated"), c2.getTime()));
 
-				return cb.and(p1, cb.or(p2, p3, cb.equal(root.get("status"), "ASSIGNED"), cb.equal(root.get("status"), "RETURN")));
+				Predicate p1 = cb.equal(root.get("userId"), userId);
+
+				Predicate p2 = cb.and(cb.equal(root.get("status"), "CHECKED"),
+						cb.lessThan(root.get("created"), c1.getTime()));
+				Predicate p3 = cb.and(cb.equal(root.get("status"), "REVIEWED"),
+						cb.lessThan(root.get("created"), c2.getTime()));
+
+				return cb.and(p1, cb.or(p2, p3, cb.equal(root.get("status"), "ASSIGNED"),
+						cb.equal(root.get("status"), "RETURN")));
 
 			}
 		};
@@ -293,6 +294,25 @@ public class TaskServiceImpl implements TaskService {
 		};
 
 		return taskRepository.findAll(spec, pageable).getContent();
+	}
+
+	@Override
+	public Page<TaskDO> listCourseTask(int page, int size, int userId, String course) {
+		Pageable pageable = PageRequest.of(page - 1, size, Sort.by(Direction.DESC, "id"));
+
+		Specification<TaskDO> spec = new Specification<TaskDO>() {
+			@Override
+			public Predicate toPredicate(Root<TaskDO> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+
+				Predicate p1 = cb.equal(root.get("userId"), userId);
+
+				Predicate p2 = cb.equal(root.get("course"), course);
+				return cb.and(p1, p2);
+
+			}
+		};
+
+		return taskRepository.findAll(spec, pageable);
 	}
 
 }

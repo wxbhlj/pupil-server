@@ -21,6 +21,8 @@ public interface TaskService {
 	
 	Page<TaskDO> listTask(int page, int size, int userId, String status) ;
 	
+	Page<TaskDO> listCourseTask(int page, int size, int userId, String course) ;
+	
 	Page<TaskDO> listCheckedTask(int userId) ;
 	
 	Page<TaskDO> listTodoTask(int userId) ;

@@ -139,7 +139,7 @@ public class TaskController {
 		TaskDO dao = taskService.findOne(req.getId());
 
 		dao.setTitle(req.getTitle());
-		dao.setScore(req.getScore());
+		dao.setScore(dao.getStatus().equals("UPLOAD")?req.getScore():dao.getScore());
 		dao.setComments(req.getComments());
 		dao.setStatus(dao.getStatus().equals("UPLOAD") ? "CHECKED" : dao.getStatus());
 		dao.setNeedCheck(0);
@@ -285,6 +285,29 @@ public class TaskController {
 			}
 		}
 		return Result.ok(list);
+	}
+	
+	@RequestMapping(value = "/task/listAll", method = RequestMethod.GET)
+	public Result<PageInfo<TaskDTO>> listAll(int pageNo, int pageSize, int userId, String course) {
+		Result<PageInfo<TaskDTO>> resp = new Result<PageInfo<TaskDTO>>();
+		PageInfo<TaskDTO> data = new PageInfo<TaskDTO>();
+		resp.setData(data);
+	
+		Page<TaskDO> entities = taskService.listCourseTask(pageNo, pageSize, userId, course);
+		if (entities != null && entities.getSize() > 0) {
+			List<TaskDTO> list = new ArrayList<TaskDTO>();
+			for (TaskDO dao : entities.getContent()) {
+				TaskDTO dto = TaskDO.toDTO(dao);
+				list.add(dto);
+			}
+			resp.getData().setTotalNumbers((int) entities.getTotalElements());
+			resp.getData().setTotalPages(entities.getTotalPages());
+			resp.getData().setList(list);
+
+		}
+		resp.getData().setPage(pageNo);
+		resp.getData().setPageSize(pageSize);
+		return resp;
 	}
 
 	@RequestMapping(value = "/task/needCheck", method = RequestMethod.GET)
