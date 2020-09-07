@@ -210,7 +210,7 @@ public class TaskServiceImpl implements TaskService {
 
 				c1.add(Calendar.HOUR, -12);
 				c2.add(Calendar.HOUR, -24 * 6);
-
+				Predicate p0 = cb.notEqual(root.get("course"), "其它");
 				Predicate p1 = cb.equal(root.get("userId"), userId);
 
 				Predicate p2 = cb.and(cb.equal(root.get("status"), "CHECKED"),
@@ -219,7 +219,7 @@ public class TaskServiceImpl implements TaskService {
 						cb.lessThan(root.get("created"), c2.getTime()));
 
 				return cb.and(p1, cb.or(p2, p3, cb.equal(root.get("status"), "ASSIGNED"),
-						cb.equal(root.get("status"), "RETURN")));
+						cb.equal(root.get("status"), "RETURN")), p0);
 
 			}
 		};

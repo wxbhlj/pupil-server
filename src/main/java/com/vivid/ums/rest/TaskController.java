@@ -183,7 +183,7 @@ public class TaskController {
 		}
 		dao.setUpdated(now);
 		dao.setReviewTime(now);
-		dao.setNeedCheck(1);
+		dao.setNeedCheck(0);
 		taskService.reviewTask(dao, files);
 		return Result.ok("OK");
 	}
